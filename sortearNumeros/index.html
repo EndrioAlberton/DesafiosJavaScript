@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sorteador de números</title>
+</head>
+<body>
+    <div class="container">
+        <div class="containerConteudo">
+            <div class="containerInformacoes">
+                <div class="containerTexto">
+                    <h1>Sorteador<span class="containerTextoRoxo"> de Números</span></h1>
+
+                    <div class="containerCampo">
+                        <label class="textoParagrafo">Quantidade de números</label>
+                        <input class="containerInput" id="quantidade" type="number" min="1">
+                    </div>
+                    
+                    <div class="containerCampo">
+                        <label class="textoParagrafo">Do número</label>
+                        <input class="containerInput" id="de" type="number" min="1">
+                    </div>
+                    
+                    <div class="containerCampo">
+                        <label class="textoParagrafo">Até o número</label>
+                        <input class="containerInput" id="ate" type="number" min="1">
+                    </div>
+                </div>
+                
+                <div class="containerBotoesWrapper">
+                    <button onclick="sortearNumeros()" id="btnSortear" class="containerBotao">Sortear</button>
+                    <button onclick="reiniciar()" id="btnReiniciar" class="containerBotao" disabled>Reiniciar</button>
+                </div>
+
+                <div class="containerTexto" id="resultado">
+                    <label class="textoParagrafo">Números sorteados: nenhum até agora</label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js" defer></script>
+</body>
+</html>
