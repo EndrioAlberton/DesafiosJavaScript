@@ -25,7 +25,7 @@ Este programa tem como objetivo gerar uma lista de números aleatórios dentro d
 
 * Verificar quantidade de números: Antes de iniciar o sorteio, o programa verifica se a quantidade de números a ser sorteada é viável dentro do intervalo especificado pelo usuário.
 
-* Validação de "de" e "até": Agora, o programa verifica se o número inicial (de) é menor que o número final (até) antes de realizar o sorteio..
+* Validação de "de" e "até": Antes de iniciar o sorteio, o programa verifica se o número inicial (de) é menor que o número final (até) antes de realizar o sorteio..
 
 * Reiniciar sorteio: Permite reiniciar o processo de sorteio após a geração dos números sorteados, limpando os campos e preparando para um novo sorteio.
 
@@ -39,7 +39,7 @@ Este programa tem como objetivo gerar uma lista de números aleatórios dentro d
 
 Exemplos de preenchimento correto:
 <div align="center">
-    <img src="./assets/exemploSortearNumeros.png" height="300"/>
+    <img src="./assets/exemploSortearNumeros.png" height="400"/>
 </div>
 
 5. Após preencher corretamente os campos, clique no botão "Sortear" para iniciar o processo de sorteio.
