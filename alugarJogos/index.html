@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Aluguel de jogos</title>
+</head>
+<body>
+    <main class="containerPrincipal">
+        <h1 class="tituloPagina">Aluguel de <span class="destaque">boardgames</span></h1>
+        <section class="painelJogos">
+            <ul class="listaJogos">
+                <li class="itemJogo" id="1">
+                    <div class="imagemJogo">
+                        <img src="img/jogoDixit.jpg" alt="Capa do jogo Dixit">
+                    </div>
+                    <p class="nomeJogo">Dixit</p>
+                    <a onclick="statusAluguel(1)" href="#" class="botaoAlugar">Alugar</a>
+                </li>
+                <li class="itemJogo" id="2">
+                    <div class="imagemJogo">
+                        <img src="img/jogoTicketToRide.png" alt="Capa do jogo Ticket to Ride">
+                    </div>
+                    <p class="nomeJogo">Ticket to Ride</p>
+                    <a onclick="statusAluguel(2)" href="#" class="botaoAlugar">Alugar</a>
+                </li>
+                <li class="itemJogo" id="3">
+                    <div class="imagemJogo imagemJogoAlugado">
+                        <img src="img/jogoAzul.jpg" alt="Capa do jogo Azul">
+                    </div>
+                    <p class="nomeJogo">Azul</p>
+                    <a onclick="statusAluguel(3)" href="#" class="botaoAlugar botaoDevolver">Devolver</a>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
