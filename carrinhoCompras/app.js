@@ -21,9 +21,7 @@ function adicionar() {
     carrinho.innerHTML = carrinho.innerHTML + `<section class="carrinhoProdutosProduto">
           <span class="textoRoxo">${quantidade}x</span> ${nomeProduto} <span class="textoRoxo">R$${preco}</span>
         </section>`
-        console.log(preco);
         valorTotal = valorTotal + preco;
-        console.log(valorTotal);
     let campoTotal = document.getElementById('valorTotal');
 
     campoTotal.textContent = `R$${valorTotal}`;
