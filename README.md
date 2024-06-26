@@ -19,22 +19,22 @@
 
 <h2>Principais Funcionalidades</h2>
 <ul>
-    <li>Gerar números sorteados: O programa gera uma lista de números aleatórios dentro de um intervalo definido pelo usuário, sem repetir nenhum deles.</li>
-    <li>Verificar quantidade de números: Antes de iniciar o sorteio, o programa verifica se a quantidade de números a ser sorteada é viável dentro do intervalo especificado pelo usuário.</li>
-    <li>Validação de "de" e "até": Antes de iniciar o sorteio, o programa verifica se o número inicial (de) é menor que o número final (até) antes de realizar o sorteio.</li>
-    <li>Reiniciar sorteio: Permite reiniciar o processo de sorteio após a geração dos números sorteados, limpando os campos e preparando para um novo sorteio.</li>
+    <li>🎲 Gerar números sorteados: O programa gera uma lista de números aleatórios dentro de um intervalo definido pelo usuário, sem repetir nenhum deles.</li>
+    <li>🔍 Verificar quantidade de números: Antes de iniciar o sorteio, o programa verifica se a quantidade de números a ser sorteada é viável dentro do intervalo especificado pelo usuário.</li>
+    <li>✔️ Validação de "de" e "até": Antes de iniciar o sorteio, o programa verifica se o número inicial (de) é menor que o número final (até) antes de realizar o sorteio.</li>
+    <li>🔄 Reiniciar sorteio: Permite reiniciar o processo de sorteio após a geração dos números sorteados, limpando os campos e preparando para um novo sorteio.</li>
 </ul>
 
 <h2>Como executar</h2>
 <ol>
-    <li><a href="#">Acesse o jogo</a>.</li>
+    <li><a href="https://endrioalberton.github.io/DesafiosJavaScript/sortearNumeros/">Acesse o jogo</a>.</li>
     <li>Insira a quantidade de números que deseja sortear e defina os valores mínimo e máximo para o sorteio.</li>
     <li>Antes de iniciar o sorteio, o sistema verifica se todos os campos estão preenchidos corretamente: quantidade de números a serem sorteados, valor mínimo (De) e valor máximo (Até).</li>
 </ol>
 
 <p>Exemplos de preenchimento correto:</p>
 <div align="center">
-    <img src="./assets/exemploSortearNumeros.png" height="400"/>
+    <img src="./assets/exemploSortearNumeros.png" alt="Exemplo de preenchimento correto" height="100%" />
 </div>
 
 <ol start="4">
@@ -50,16 +50,19 @@
 <h2>Funcionalidades</h2>
 <h3>Gerenciar Status de Aluguel</h3>
 <ul>
-    <li>O sistema permite o usuário visualizar os jogos disponíveis e não disponíveis.</li>
-    <li>O sitema permite o usuário alugar ou devolver um jogo</li>
+    <li>👀 Vizualizar jogos: O sistema permite o usuário visualizar os jogos disponíveis e não disponíveis.</li>
+    <li>🎮 Alugar jogos: O sistema permite o usuário alugar ou devolver um jogo</li>
 </ul>
 
 <h2>Como Executar</h2>
 <ol>
-    <li><a href="#">Acesse o site Aluguel de Boardgames</a>.</li>
-    <li>Você será direcionado para uma página contendo uma lista de boardgames disponíveis.</li>
-    <li>Cada jogo será exibido com uma imagem da capa, nome e um botão que indica se o jogo está disponível para aluguel ou deve ser devolvido.</li>
-    <li>Para alugar ou devolver um jogo, clique no botão correspondente ao jogo desejado.</li>
-    <li>O estado do jogo será atualizado visualmente, indicando se está alugado ou disponível para aluguel.</li>
-    <li>Após alugar um jogo, você pode clicar no botão "Devolver" para retorná-lo ao estoque quando terminar.</li>
+    <li><a href="https://endrioalberton.github.io/DesafiosJavaScript/alugarJogos/">Acesse o site</a>.</li>
+    <li>Clicando nos botões, você pode alugar ou devolver um jogo.</li>
+    <li>O botão será alterado visualmente para indicar o status de aluguel do jogo.</li>
+    <li>Um jogo alugado pode ser devolvido ao clicar no botão "Devolver".</li>
 </ol>
+
+<p>Interface:</p>
+<div align="center">
+    <img src="./assets/bordGames.png" alt="Exemplo de interface do sistema" width="100%" />
+</div>
