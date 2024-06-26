@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Carrinho de compras</title>
+</head>
+
+<body>
+  <main class="conteudoPrincipal">
+    <div class="grafismoRoxo"></div>
+    <section class="adicionarProduto">
+      <h1 class="titulo">
+        Carrinho de <span class="textoRoxo">compras</span>
+      </h1>
+
+      <form class="formulario">
+        <label class="campoGrupo">
+          <span class="textoMedioRoxo">Produto</span>
+          <select class="produtoInput" name="produto" id="produto">
+            <option value="Fone de ouvido - R$100">Fone de ouvido - R$100</option>
+            <option value="Celular - R$1400">Celular - R$1400</option>
+            <option value="Oculus VR - R$5000">Oculus VR - R$5000</option>
+          </select>
+        </label>
+
+        <section class="parteInferior">
+          <label class="campoGrupo">
+            <span class="textoMedioRoxo">Qtde.</span>
+            <input class="quantidadeInput" id="quantidade" type="number" placeholder="1">
+          </label>
+
+          <section class="botoesWrapper">
+            <button onclick="adicionar()" type="button" class="botaoForm botaoAdicionar">Adicionar</button>
+            <button onclick="limpar()" type="button" class="botaoForm botaoLimpar">Limpar</button>
+          </section>
+        </section>
+      </form>
+    </section>
+    <section class="carrinho">
+      <img src="./assets/carrinho-cinza.svg" alt="Imagem de um carrinho de compras cinza">
+
+      <div class="tituloWrapper">
+        <img src="./assets/icone-carrinho.svg" alt="ícone de carrinho">
+
+        <h2 class="carrinhoTitulo">Produtos no carrinho</h2>
+      </div>
+
+      <section class="carrinhoProdutos" id="listaProdutos">
+        <section class="carrinhoProdutosProduto">
+          <span class="textoRoxo">1x</span> Celular <span class="textoRoxo">R$1400</span>
+        </section>
+      </section>
+
+      <div class="divisoria"></div>
+
+      <p class="carrinhoTotal">
+        Total: <span class="textoRoxo" id="valorTotal">R$1400</span>
+      </p>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
