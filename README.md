@@ -17,7 +17,7 @@
 <h1>Sorteador de Números</h1>
 <p>Este programa tem como objetivo gerar uma lista de números aleatórios dentro de um intervalo definido pelo usuário, sem repetir nenhum deles. Ele também fornece feedback ao usuário para verificar se o intervalo informado é válido antes de realizar o sorteio.</p>
 
-<h2>Principais Funcionalidades</h2>
+<h2>Funcionalidades</h2>
 <ul>
     <li>🎲 Gerar números sorteados: O programa gera uma lista de números aleatórios dentro de um intervalo definido pelo usuário, sem repetir nenhum deles.</li>
     <li>🔍 Verificar quantidade de números: Antes de iniciar o sorteio, o programa verifica se a quantidade de números a ser sorteada é viável dentro do intervalo especificado pelo usuário.</li>
@@ -48,7 +48,6 @@
 </p>
 
 <h2>Funcionalidades</h2>
-<h3>Gerenciar Status de Aluguel</h3>
 <ul>
     <li>👀 Vizualizar jogos: O sistema permite o usuário visualizar os jogos disponíveis e não disponíveis.</li>
     <li>🎮 Alugar jogos: O sistema permite o usuário alugar ou devolver um jogo</li>
@@ -65,4 +64,29 @@
 <p>Interface:</p>
 <div align="center">
     <img src="./assets/bordGames.png" alt="Exemplo de interface do sistema" width="100%" />
+</div>
+
+<h1>Carrinho de Compras</h1>
+<p>Este é um projeto de carrinho de compras simples. Ele permite adicionar produtos com quantidades variáveis e calcular o total da compra dinamicamente.</p>
+
+<h2>Funcionalidades</h2>
+<ul>
+    <li>🛒 Seleção de Produtos: Escolha entre diferentes produtos disponíveis para compra através de um menu dropdown.</li>
+    <li>➕ Adição de Produtos: Adicione produtos ao carrinho especificando a quantidade desejada e clicando no botão "Adicionar".</li>
+    <li>🧹 Limpeza do Carrinho: Limpe todos os produtos do carrinho clicando no botão "Limpar".</li>
+    <li>🔄 Atualização Dinâmica: O total da compra e os produtos adicionados são atualizados dinamicamente na interface.</li>
+</ul>
+
+<h2>Como Executar</h2>
+<ol>
+    <li><a href="https://endrioalberton.github.io/DesafiosJavaScript/carrinhoCompras/">Acesse o site</a></li>
+    <li>Escolha um produto no menu suspenso "Produto".</li>
+    <li>Insira a quantidade desejada do produto no campo "Qtde.".</li>
+    <li>Clique no botão "Adicionar" para incluir o produto no carrinho.</li>
+    <li>Para remover todos os produtos do carrinho, clique no botão "Limpar".</li>
+</ol>
+
+<p>Interface:</p>
+<div align="center">
+    <img src="./assets/carrinhosCompra.png" alt="Exemplo de interface do sistema" width="100%" />
 </div>
