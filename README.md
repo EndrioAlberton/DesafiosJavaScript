@@ -90,3 +90,27 @@
 <div align="center">
     <img src="./assets/carrinhosCompra.png" alt="Exemplo de interface do sistema" width="100%" />
 </div>
+
+<h1>Comprar Ingresso</h1>
+<p>Este projeto é um sistema de compra de ingressos que permite aos usuários selecionar o tipo de ingresso e a quantidade desejada, verificar a disponibilidade e concluir a compra.</p>
+
+<h2>Funcionalidades</h2>
+<ul>
+    <li>🎟️ Seleção de Tipo de Ingresso: O usuário pode escolher entre ingressos de pista, cadeira superior ou cadeira inferior.</li>
+    <li>➕ Verificação de Disponibilidade: O sistema verifica se a quantidade desejada de ingressos está disponível antes de concluir a compra.</li>
+    <li>✔️ Confirmação de Compra: Se a quantidade de ingressos estiver disponível, o sistema reduz a quantidade disponível e confirma a compra.</li>
+    <li>❌ Alerta de Indisponibilidade: Se a quantidade desejada de ingressos não estiver disponível, o sistema alerta o usuário.</li>
+</ul>
+
+<h2>Como Executar</h2>
+<ol>
+    <li><a href="https://endrioalberton.github.io/DesafiosJavaScript/ingresso/">Acesse o site</a>.</li>
+    <li>Escolha o tipo de ingresso no menu suspenso "Tipo de Ingresso".</li>
+    <li>Insira a quantidade desejada de ingressos no campo "Quantidade".</li>
+    <li>Clique no botão "Comprar" para verificar a disponibilidade e concluir a compra.</li>
+</ol>
+
+<p>Interface:</p>
+<div align="center">
+    <img src="./assets/ingresso.png" alt="Exemplo de interface do sistema" width="100%" />
+</div>
